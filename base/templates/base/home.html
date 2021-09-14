@@ -1,0 +1,67 @@
+{% load static %}
+
+<!doctype html>
+<html>
+<head>
+    <title>Utkarsh Saxena</title><link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <div class="profile">
+                    <img id="profile-pic"src="{% static 'images/dp.jpg' %}"></div>
+                    <br>
+                    <h4>Hi I'm Utkarsh!</h4>
+                    <p class="text-capitalize">I like django.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4 class="text-capitalize">My first project using django.</h4>
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, eaque provident vitae neque, molestiae quidem nam id vero distinctio earum ut eos perferendis commodi consequatur nihil ea? Quae, officia eaque!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusamus in voluptas, eius ad dolorum aspernatur veritatis molestias, ea assumenda cum molestiae placeat iste autem inventore error beatae, quos expedita!
+                    </p>
+                    <p>
+                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro veniam sunt molestias cupiditate, fugit illum sapiente impedit possimus cum nostrum doloremque tenetur esse error, quisquam, assumenda dolore ad debitis animi?
+                    </p>
+                    <ul class="social-links">
+                        <li><a href="#"><img class="social" src="{% static 'images/facebook.jfif' %}"></a></li>
+                        <li><img class="social" alt="insta" src="{% static 'images/instagram.jfif' %}"></li>
+                        <li> <a href="https://github.com/UtkarshS20" target="blank"> <img class="social" src="{% static 'images/github.jfif' %}"></a></li>
+                        <li><img class="social" src="{% static 'images/linkedin.jfif' %}"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
